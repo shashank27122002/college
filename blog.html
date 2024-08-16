@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UBDT</title>
+    <link rel="stylesheet" href="ubdt.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="VTU-Logo-250x250-1.png" width="80px" height="70px"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+     <h1>Our Certificates & Online Programs For 2023</h1>
+    </section>
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="p6.jpg">
+                <h2>Our Certificates & Online Programs For 2023:</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores inventore sequi aliquam! Ipsa et tenetur, officiis quod ipsum quis necessitatibus, aliquam commodi autem deleniti, natus dolorum aliquid nostrum cupiditate a.</p>
+                <br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint nulla possimus eum? Neque tempora ex sed officia magni? Animi, distinctio. Tempore eaque labore reiciendis optio ullam eum nesciunt nobis doloribus.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci delectus nostrum accusamus atque tenetur enim aliquid suscipit magni sapiente eaque? Est aut nemo tempora autem fugit sequi ad voluptatem error!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque iusto quas soluta aliquid laudantium nesciunt dolor libero. Dolor, quis earum qui aliquid eaque, tempore sunt cumque assumenda ab est optio.</p>
+                  <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea name=""  rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="btn red-btn">POST COMMENT</button>
+                    </form>
+                  </div>
+            </div>
+            <div class="blog-right">
+              <h3>Post Categories</h3>
+              <div>
+                <span>Bussiness Analytics</span>
+                <span>24</span>
+              </div>
+              <div>
+                <span>Data Science</span>
+                <span>28</span>
+              </div>
+              <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+              </div>
+              <div>
+                <span>Computer Science</span>
+                <span>30</span>
+              </div>
+              <div>
+                <span>Commerce</span>
+                <span>30</span>
+              </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <h4>
+            About Us
+        </h4>
+        <p>
+            UBDTCE is one of the oldest colleges of karnataka.College comes under VTU & <br>our college is government aided college.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            
+        </div>
+        
+    </section>
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

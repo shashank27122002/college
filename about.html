@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UBDT</title>
+    <link rel="stylesheet" href="ubdt.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="VTU-Logo-250x250-1.png" width="80px" height="70px"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+      <h1>About Us</h1>
+    </section>
+
+   <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are india's most Prestigious College</h1>
+              <p>UBDTCE is one of the oldest colleges of karnataka.College comes under VTU & <br>our college is government aided college.</p>
+              <a href="" class="btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="graduation-day-royalty-free-image-1647266748.jpg"> </div>
+        </div>
+    </section>
+ <section class="footer">
+        <h4> About Us </h4>
+        <p>
+            <p>This is college of dreams and UBDTCE produces great results in terms of placement.<br>College consists of highly experienced lectures and faculty members.</p>
+              
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            
+        </div>
+        
+    </section>
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
